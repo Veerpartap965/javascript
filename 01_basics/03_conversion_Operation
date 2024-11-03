@@ -1,0 +1,44 @@
+let score="33abc";
+console.log(typeof score);
+console.log(typeof(score));
+
+
+// coversion of string to number
+let valueInNumber=Number(score)
+console.log(typeof(valueInNumber));
+console.log(valueInNumber);
+// NaN ==> not a number    it's means
+let veer=null;
+let valueInveer=Number(veer)
+console.log(typeof(veer));
+console.log(valueInveer);
+//0 get
+
+let one=undefined;
+let valueInone=Number(one)
+console.log(typeof(one));
+console.log(valueInone);
+//NaN
+let two=true;
+let valueIntwo=Number(two)
+console.log(typeof(two));
+console.log(valueIntwo);
+//1
+let he="veerpartap";
+let valueInhe=Number(he)
+console.log(typeof(he));
+console.log(valueInhe);
+
+//conversion of number to boolean
+let IsLoggedIn=1
+let booleanIsLoggedIn=Boolean(IsLoggedIn)
+console.log(BooleanIsLoggedIn);
+
+//1==>true ;0==>false
+// " "=>false
+// "veer"==> true
+
+let someNumber=33
+let stringNumber=String(someNumber)
+console.log(stringNumber);
+console.log( typeof stringNumber);
