@@ -1,0 +1,23 @@
+// primitive datatypes
+const score=100
+const score_1=100.1
+const IsLoggedIn=false
+const outsidetemp=null
+let email;
+const id=Symbol('123')
+const anotherId=Symbol('123')
+console.log(id===anotherId);
+const bigNumber=252634633735n
+
+//arrays
+const heros=["shaktiman","batman","Spiderman"];
+// objects
+let myobj ={
+    name:veerpartap,
+    age:19,
+}
+//function
+const myFunction=function(){
+    console.log("hello guys");
+    
+}
