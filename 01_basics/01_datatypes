@@ -1,0 +1,22 @@
+"use strict"; // treat all JS code as newer version or newer JS code
+
+// alert(3+3) // we are using nodeJS, not browser
+
+let name="veerpartap singh"
+let age=19
+let isLoggedIn=false
+/*datatypes
+number=2 to power 53
+string=> " " used not most time ''
+bigint=>trading,stock,websities used etc
+boolean=>true or false
+null=>standalone
+undefined=> variable define not assign value
+symbol=>unique
+
+object
+*/
+console.log(typeof undefined); // undefined
+console.log(typeof null);  // object
+
+
