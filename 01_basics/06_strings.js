@@ -14,8 +14,8 @@ console.log(gameName.toUpperCase());
  const stringNew=gameName.substring(1,3);
 //  const stringNew=gameName.substring(-6,3); // -6 nal koi change ne means no reverse
 console.log(stringNew);
-const anotherName1=new gameName.slice(0,4) 
-const anotherName=new gameName.slice(-8,4) 
+const anotherName1= gameName.slice(0,4) 
+const anotherName= gameName.slice(-8,4) 
 const anotherNameone="     veer    " 
 console.log(anotherNameone);
 console.log(anotherNameone.trim());
